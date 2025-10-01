@@ -5,63 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sherani Navodya Fernando | Portfolio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      background: #f4f4f9;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9ff;
       color: #333;
       line-height: 1.6;
     }
+
     header {
-      background: #4a148c;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
       color: white;
-      padding: 20px;
       text-align: center;
+      padding: 50px 20px;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2.5em;
+      font-size: 2.8em;
+      margin-bottom: 10px;
     }
+
     header p {
-      margin: 5px 0;
+      font-size: 1.2em;
       font-style: italic;
     }
+
     header img {
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
-      margin-top: 15px;
+      border: 5px solid white;
+      margin-top: 20px;
     }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
     section {
-      max-width: 800px;
-      margin: 20px auto;
+      max-width: 1000px;
+      margin: 30px auto;
       padding: 20px;
       background: white;
       border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
     }
+
     h2 {
-      color: #4a148c;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 5px;
+      color: #2575fc;
       margin-bottom: 15px;
+      border-bottom: 3px solid #eee;
+      padding-bottom: 5px;
     }
+
     ul {
       list-style-type: square;
       padding-left: 20px;
     }
+
+    li {
+      margin-bottom: 8px;
+    }
+
     a {
-      color: #4a148c;
+      color: #2575fc;
       text-decoration: none;
       font-weight: bold;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer {
       text-align: center;
       padding: 15px;
-      background: #4a148c;
+      background: #333;
       color: white;
-      margin-top: 20px;
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -70,62 +110,28 @@
   <!-- Header -->
   <header>
     <h1>Sherani Navodya Fernando</h1>
-    <p>Undergraduate in Biotechnology | SLIIT</p>
+    <p>Undergraduate in Biotechnology | Future Scientist | Lifelong Learner</p>
     <img src="myphoto.jpg" alt="My Photo">
   </header>
 
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <!-- About Me -->
-  <section>
+  <section id="about">
     <h2>About Me</h2>
-    <p>Hi! I'm <b>Sherani Navodya Fernando</b>, 21 years old and currently pursuing my BSc (Hons) in Biotechnology at SLIIT. 
-    I am passionate about exploring the world of molecular biology and genetics, with a keen interest in how biotechnology can improve human health and sustainability.
-    I’m curious, hardworking, and always ready to learn new things.</p>
-  </section>
+    <p>Hello! I'm <b>Sherani Navodya Fernando</b>, a 21-year-old undergraduate student pursuing my BSc (Hons) in Biotechnology at SLIIT. 
+    I have a strong passion for genetics, molecular biology, and research. 
+    My long-term goal is to contribute to medical biotechnology and help develop solutions that improve human health. 
+    I am hardworking, detail-oriented, and always excited to explore new technologies in scien
 
-  <!-- Education -->
-  <section>
-    <h2>Educational Qualifications</h2>
-    <ul>
-      <li><b>Secondary Education:</b> Completed A/L in Bio Stream (2024) – Results: C, C, S</li>
-      <li><b>Higher Education:</b> Undergraduate degree in Biotechnology at SLIIT (Ongoing)</li>
-    </ul>
-  </section>
-
-  <!-- Skills -->
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>DNA Extraction & PCR Techniques</li>
-      <li>Microbiology Laboratory Skills</li>
-      <li>Data Analysis & Research</li>
-      <li>Teamwork & Communication</li>
-      <li>Problem Solving in Biotechnology Applications</li>
-    </ul>
-  </section>
-
-  <!-- Hobbies -->
-  <section>
-    <h2>Hobbies</h2>
-    <p>I enjoy reading science fiction books, listening to music, and exploring new scientific research in biotechnology.</p>
-  </section>
-
-  <!-- Resume -->
-  <section>
-    <h2>Resume</h2>
-    <p><a href="resume.pdf" download>Download my Resume (PDF)</a></p>
-  </section>
-
-  <!-- Contact -->
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:navodyafernando07@gmail.com">navodyafernando07@gmail.com</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Sherani Navodya Fernando | Portfolio Website</p>
-  </footer>
-
-</body>
-</html>
 
